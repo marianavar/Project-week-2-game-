@@ -20,7 +20,7 @@ const animal = yesNo.question("Want to know your spirit animal?(yes/no)");
             let choice = getRandom(animalsArray);
 
                 console.log(`${response} You are a ${choice}!`)}
-   else if (roll = "no"){
+   else if (roll == "no"){
      console.log("Goodbye")}
      else {console.warn("*Sorry, I did not understand that.");
    }
@@ -31,7 +31,7 @@ const animal = yesNo.question("Want to know your spirit animal?(yes/no)");
   }
   else{console.warn("*Sorry, I did not understand that.");
 }
-console.log(animal);
+// console.log(animal);
 
 
 
